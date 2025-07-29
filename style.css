@@ -277,3 +277,24 @@ header {
     color: #b30000;
     text-decoration: none;
 }
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .sobre-mi-container {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 90%;
+  }
+}
